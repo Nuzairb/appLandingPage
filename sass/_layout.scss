@@ -1,0 +1,35 @@
+.header {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/asoggetti-413830-unsplash.jpg);
+    background-size: cover;
+    position: relative;
+    &::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        // background: linear-gradient(180deg, #6200B3 0%, #3B0086 100%);
+        opacity: .6;
+    }
+    &__box {
+        position: absolute;
+        top: 22.2%;
+        left: 50%;
+        transform: translate(-50%);
+    }
+    &__title {
+        font-weight: 600;
+        font-size: 6rem;
+        text-align: center;
+        letter-spacing: 0.3em;
+    }
+    &__text {
+        font-size: 2.5rem;
+        text-align: center;
+        margin-bottom: 4rem;
+    }
+    &__iphone-x {}
+}

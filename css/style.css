@@ -1,0 +1,61 @@
+:root {
+  --color-black: #000000;
+  --color-mardi-gras: #290628;
+  --color-indigo: #3B0086;
+  --color-purple-heart: #6200B3;
+  --color-alizarin: #ED1C24;
+  --color-dark-gray: #A3A3A3;
+  --color-panache: #EFF2ED;
+  --color-lvory: #FFFFFC; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit; }
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; }
+
+body {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  line-height: 1.6; }
+
+.wrapper {
+  width: 100%;
+  max-width: 110rem;
+  margin: 0 auto; }
+
+.header {
+  width: 100%;
+  height: 100vh;
+  background-image: url(../img/asoggetti-413830-unsplash.jpg);
+  background-size: cover;
+  position: relative; }
+  .header::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: .6; }
+  .header__box {
+    position: absolute;
+    top: 22.2%;
+    left: 50%;
+    transform: translate(-50%); }
+  .header__title {
+    font-weight: 600;
+    font-size: 6rem;
+    text-align: center;
+    letter-spacing: 0.3em; }
+  .header__text {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 4rem; }
