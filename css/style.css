@@ -44,8 +44,10 @@ body {
     right: 0;
     bottom: 0;
     left: 0;
+    background: linear-gradient(180deg, #6200B3 0%, #3B0086 100%);
     opacity: .6; }
   .header__box {
+    color: var(--color-black);
     position: absolute;
     top: 22.2%;
     left: 50%;
