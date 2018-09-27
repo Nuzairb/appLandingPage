@@ -36,6 +36,8 @@ body {
   height: 100vh;
   background-image: url(../img/asoggetti-413830-unsplash.jpg);
   background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   position: relative; }
   .header::before {
     content: '';
@@ -45,19 +47,55 @@ body {
     bottom: 0;
     left: 0;
     background: linear-gradient(180deg, #6200B3 0%, #3B0086 100%);
+    mix-blend-mode: color;
     opacity: .6; }
   .header__box {
     color: var(--color-black);
     position: absolute;
-    top: 22.2%;
+    top: 10%;
     left: 50%;
     transform: translate(-50%); }
   .header__title {
     font-weight: 600;
-    font-size: 6rem;
+    font-size: 4rem;
     text-align: center;
     letter-spacing: 0.3em; }
   .header__text {
-    font-size: 2.5rem;
+    font-size: 2rem;
     text-align: center;
-    margin-bottom: 4rem; }
+    margin-bottom: 4.2rem; }
+  .header::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 25rem;
+    background: var(--color-purple-heart);
+    opacity: .9; }
+  .header__testimonial {
+    z-index: 10;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translateX(-50%); }
+    .header__testimonial .quote {
+      fill: var(--color-lvory); }
+      .header__testimonial .quote__text {
+        font-size: 3rem;
+        text-align: center;
+        color: #fff; }
+      .header__testimonial .quote__by {
+        font-size: 1.5rem;
+        color: var(--color-lvory);
+        margin-left: 35rem; }
+
+.shape {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%);
+  z-index: -100; }
+  .shape div {
+    margin: 0 2rem; }
