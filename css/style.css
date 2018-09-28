@@ -211,3 +211,44 @@ ORDER: Base + typography > genral layout + grid > page layout > component
       margin: 10%;
       width: 3.8rem;
       height: 3.8rem; }
+
+.footer {
+  width: 100%;
+  height: 25rem;
+  background: linear-gradient(180deg, #6200B3 0%, #3B0086 100%);
+  position: relative; }
+  .footer__shape {
+    position: absolute;
+    display: flex;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    flex-direction: row;
+    justify-content: space-between;
+    opacity: .6; }
+    .footer__shape__polygon {
+      margin-right: 18rem; }
+    .footer__shape__ellipse {
+      margin-right: 18rem; }
+    .footer__shape__square {
+      margin-right: 18rem; }
+  .footer__logo {
+    text-align: center; }
+    .footer__logo img {
+      margin-top: 4rem;
+      margin-right: 16rem;
+      z-index: 100;
+      width: 5rem;
+      height: 5rem; }
+  .footer__text {
+    text-align: center;
+    color: var(--color-lvory);
+    margin-top: .9rem;
+    font-size: 1.2rem; }
+  .footer__links {
+    text-align: center;
+    margin-top: 4rem; }
+  .footer__copyright {
+    text-align: center;
+    color: var(--color-lvory);
+    margin-top: 1rem; }
