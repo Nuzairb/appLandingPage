@@ -225,7 +225,8 @@ ORDER: Base + typography > genral layout + grid > page layout > component
     transform: translate(-50%, -50%);
     flex-direction: row;
     justify-content: space-between;
-    opacity: .6; }
+    mix-blend-mode: soft-light;
+    opacity: 0.5; }
     .footer__shape__polygon {
       margin-right: 18rem; }
     .footer__shape__ellipse {
@@ -244,7 +245,7 @@ ORDER: Base + typography > genral layout + grid > page layout > component
     text-align: center;
     color: var(--color-lvory);
     margin-top: .9rem;
-    font-size: 1.2rem; }
+    font-size: 1.4rem; }
   .footer__links {
     text-align: center;
     margin-top: 4rem; }
